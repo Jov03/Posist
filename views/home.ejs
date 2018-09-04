@@ -1,0 +1,25 @@
+<% include ./partials/header%>
+<% include ./partials/navbar%>
+
+<div class="container">
+    <h4 class="UserWelcome">Welcome,
+        <%=currentUser.username%>
+    </h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Company Name</th>
+                <th>Created By</th>
+                <th>Company Address</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="NodesTable">
+        </tbody>
+    </table>
+</div>
+
+
+
+
+<% include ./partials/footer%>
